@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="hvs.css">
+    <title>
+        Happy Valley Shelter
+    </title>
+</head>
+
+<body>
+
+    <h1 class="company_name">Happy Valley Shelter</h1>
+
+    <h2 class="task">Adopt a Dog</h2>
+    <p class="form">If you are interested in adopting one of our animals, please fill out our <a href="">online
+            adoption form.</a></p>
+
+    <!-- Filter for dogs -->
+    <h3 class="filter_title">Show me dogs that are:</h3>
+
+    <div class="filter_container">
+
+        <!-- Filter 1: Gender -->
+        <form class="filter_item_gender">
+            <p><strong>Gender</strong> </p>
+            <input type="radio" name="gender" value="Male"> Male <br>
+            <input type="radio" name="gender" value="Female"> Female <br>
+            <input type="radio" name="gender" value="All"> All <br>
+        </form>
+
+        <!-- Filter 2: Age -->
+        <form class="filter_item_age">
+            <p><strong>Age</strong></p>
+            <input type="radio" name="Age" value="Puppy"> Puppy <br>
+            <input type="radio" name="Age" value="Young"> Young <br>
+            <input type="radio" name="Age" value="Adult"> Adult <br>
+            <input type="radio" name="Age" value="Senior"> Senior <br>
+            <input type="radio" name="Age" value="All"> All <br>
+        </form>
+
+        <!-- Filter 3: Size -->
+        <form class="filter_item_size">
+            <p><strong>Size</strong></p>
+            <input type="checkbox" name="Size" value="Tiny"> Tiny <br>
+            <input type="checkbox" name="Size" value="Small"> Small <br>
+            <input type="checkbox" name="Size" value="Medium"> Medium <br>
+            <input type="checkbox" name="Size" value="Large"> Large <br>
+        </form>
+
+        <!-- Filter 4: Personality Traits -->
+        <form class="filter_item_personality_traits">
+            <p><strong>Personality Traits</strong> <br>
+                <input type="checkbox" name="Personality Traits" value="Easygoing"> Easygoing <br>
+                <input type="checkbox" name="Personality Traits" value="Energetic"> Energetic <br>
+                <input type="checkbox" name="Personality Traits" value="Good with kids"> Good with kids <br>
+                <input type="checkbox" name="Personality Traits" value="Good with other dogs"> Good with <br> other
+                dogs <br>
+                <input type="checkbox" name="Personality Traits" value="Good with cats"> Good with other cats <br>
+        </form>
+    </div>
+
+    <!-- Results -->
+
+    <!-- Beans -->
+    <div class="results-container">
+        <div class="results">
+            <img src="starter_files/images/beans.jpg" alt="Beans is a dog with black fur!" height="200" width="300">
+            <div class="dog_font">Beans</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Adult</div>
+                <div class="filter_results">Male</div>
+                <div class="filter_results">Medium</div>
+                <div class="filter_results">Easygoing</div>
+                <div class="filter_results">Good with Cats</div>
+            </div>
+        </div>
+
+        <!-- Zelda -->
+        <div class="results">
+            <img src="starter_files/images/boston-terrier.jpg" alt="Zelda is a Boston Terrier!" height="225" width="300">
+            <div class="dog_font">Zelda</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Senior</div>
+                <div class="filter_results">Female</div>
+                <div class="filter_results">Small</div>
+                <div class="filter_results">Easygoing</div>
+                <div class="filter_results">Good with kids</div>
+                <div class="filter_results"> Good with other dogs</div>
+            </div>
+        </div>
+
+        <!-- Baby -->
+        <div class="results">
+            <img src="starter_files/images/boxer.jpg" alt="Baby is a Boxer!" height="200" width="300">
+            <div class="dog_font">Baby</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Young</div>
+                <div class="filter_results">Female</div>
+                <div class="filter_results">Large</div>
+                <div class="filter_results">Energetic</div>
+                <div class="filter_results">Good with kids</div>
+                <div class="filter_results">Good with other dogs</div>
+            </div>
+        </div>
+
+        <!-- Tom-Tom -->
+        <div class="results">
+            <img src="starter_files/images/golden-lab.jpg" alt="Tom-Tom is a Golden Lab!" height="225" width="300">
+            <div class="dog_font">Tom-Tom</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Young</div>
+                <div class="filter_results">Male</div>
+                <div class="filter_results">Large</div>
+                <div class="filter_results">Energetic</div>
+                <div class="filter_results">Good with kids</div>
+                <div class="filter_results">Good with other dogs </div>
+                <div class="filter_results">Good with cats</div>
+            </div>
+        </div>
+
+        <!-- Marco -->
+        <div class="results">
+            <img src="starter_files/images/little-dog.jpg" alt="Marco is a little dog!" height="200" width="300">
+            <div class="dog_font">Marco</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Adult</div>
+                <div class="filter_results">Male</div>
+                <div class="filter_results">Small</div>
+                <div class="filter_results">Energetic</div>
+            </div>
+        </div>
+
+        <!-- Shackleton -->
+        <div class="results">
+            <img src="starter_files/images/old-shaggy.jpg" alt="Shackleton is an ol' shaggy dog!" height="225" width="300">
+            <div class="dog_font">Shackleton</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Adult</div>
+                <div class="filter_results">Medium</div>
+                <div class="filter_results">Easygoing</div>
+                <div class="filter_results">Energetic</div>
+                <div class="filter_results">Good with kids</div>
+                <div class="filter_results">Good with other dogs</div>
+                <div class="filter_results">Good with cats</div>
+            </div>
+        </div>
+
+        <!-- Midge -->
+        <div class="results">
+            <img src="starter_files/images/shih-tzu.jpg" alt="Midge is a Shih-Tzu!" height="200" width="300">
+            <div class="dog_font">Midge</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Adult</div>
+                <div class="filter_results">Female</div>
+                <div class="filter_results">Small</div>
+                <div class="filter_results">Easygoing</div>
+                <div class="filter_results">Good with kids</div>
+            </div>
+        </div>
+
+        <!-- Ladybird -->
+        <div class="results">
+            <img src="starter_files/images/young-bulldog.jpg" alt="Ladybird is a young bulldog!" height="225" width="300">
+            <div class="dog_font">Ladybird</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Young</div>
+                <div class="filter_results">Female</div>
+                <div class="filter_results">Large</div>
+                <div class="filter_results">Easygoing </div>
+                <div class="filter_results">Energetic</div>
+                <div class="filter_results">Good with kids</div>
+                <div class="filter_results">Good with other dogs</div>
+                <div class="filter_results">Good with cats</div>
+            </div>
+        </div>
+
+        <!-- Mina -->
+        <div class="results">
+            <img src="starter_files/images/young-peppy.jpg" alt="Mina is a young peppy dog!" height="200" width="300">
+            <div class="dog_font">Mina</div>
+            <div class="filter_results_container">
+                <div class="filter_results">Puppy</div>
+                <div class="filter_results">Female</div>
+                <div class="filter_results">Medium</div>
+                <div class="filter_results">Energetic</div>
+                <div class="filter_results">Good with kids</div>
+                <div class="filter_results">Good with dogs</div>
+                <div class="filter_results">Good with cats</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="background-1">
+            <div class="layer"></div>
+            <img src="starter_files/images/donate.jpg" alt="Donate!" height="250" width="350">
+            <div class="layer">Donate</div>
+        </div>
+
+        <div class="background-2">
+            <img src="starter_files/images/volunteer.jpg" alt="Volunteer" height="250" width="350">
+            <div class="layer">Volunteer</div>
+        </div>
+
+
+        <div class="background-3">
+            <img src="starter_files/images/location.png" alt="Location" height="250" width="350">
+            <div class="layer">Our location</div>
+        </div>
+
+</body>
+
+</html>

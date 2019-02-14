@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <title>
+        Happy Valley Shelter
+    </title>
+
+    <head>
+        Happy Valley Shelter
+    </head>
+    <h1>Adopt a Dog</h1>
+    <p>If you are interested in adopting one of our animals, please fill out our <a href="">online adoption form.</a></p>
+
+    <!-- Filter for Dogs -->
+    <h2>Show me dogs that are:</h2>
+    <p>Gender</p>
+
+    <!-- I plan to remove the html list and adjust with CSS -->
+    <ul>
+        <li><label>
+                <input type="radio">Male
+            </label></li>
+        <li><label>
+                <input type="radio">Female
+            </label></li>
+        <li><label>
+                <input type="radio">All
+            </label></li>
+    </ul>
+    <p>Age</p>
+    <ul>
+        <li><label>
+                <input type="radio">Puppy
+            </label></li>
+        <li><label>
+                <input type="radio">Young
+            </label></li>
+        <li><label>
+                <input type="radio">Adult
+            </label></li>
+        <li><label>
+                <input type="radio">Senior
+            </label></li>
+        <li><label>
+                <input type="radio">All
+            </label></li>
+    </ul>
+    <p>Size</p>
+    <ul>
+        <li><label>
+                <input type="checkbox">Tiny
+            </label></li>
+        <li><label>
+                <input type="checkbox">Small
+            </label></li>
+        <li><label>
+                <input type="checkbox">Medium
+            </label></li>
+        <li><label>
+                <input type="checkbox">Large
+            </label></li>
+    </ul>
+    <p>Personality Traits</p>
+    <ul></ul>
+    <li><label>
+            <input type="checkbox">Easygoing
+        </label></li>
+    <li><label>
+            <input type="checkbox">Energetic
+        </label></li>
+    <li><label>
+            <input type="checkbox">Good with kids
+        </label></li>
+    <li><label>
+            <input type="checkbox">Good with other dogs
+        </label></li>
+    <li><label>
+            <input type="checkbox">Good with cats
+        </label></li>
+    </ul>
+    <br>
+    <input type="Search by name">
+
+    <!-- This is where the dogs will be listed in a grid format -->
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/beans.jpg" alt="Beans is a dog with black fur!">
+    <p>Beans</p>
+    <p> Adult Male Medium Easygoing Good with Cats</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/boston-terrier.jpg" alt="Zelda is a Boston Terrier!">
+    <p>Zelda</p>
+    <p> Senior Female Small Easygoing Good with kids Good with other dogs</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/boxer.jpg" alt="Baby is a Boxer!">
+    <p>Baby</p>
+    <p> Young Female Large Energetic Good with kids Good with other dogs</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/golden-lab.jpg" alt="Tom-Tom is a Golden Lab!">
+    <p>Tom-Tom</p>
+    <p> Young Male Large Energetic Good with kids Good with other dogs Good with cats</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/little-dog.jpg" alt="Marco is a little dog!">
+    <p>Marco</p>
+    <p> Adult Male Small Energetic</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/old-shaggy.jpg" alt="Shackleton is an ol' shaggy dog!">
+    <p>Shackleton</p>
+    <p> Adult Male Medium Easygoing Energetic Good with kids Good with other dogs Good with cats</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/shih-tzu.jpg" alt="Midge is a Shih-Tzu!">
+    <p>Midge</p>
+    <p> Adult Female Small Easygoing Good with kids</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/young-bulldog.jpg" alt="Ladybird is a young bulldog!">
+    <p>Ladybird</p>
+    <p> Young Female Large Easygoing Energetic Good with kids Good with other dogs Good with cats</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/young-peppy.jpg" alt="Mina is a young peppy dog!">
+    <p>Mina</p>
+    <p> Puppy Female Medium Energetic Good with kids Good with other dogs Good with cats</p>
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/donate.jpg" alt="Donate!">
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/volunteer.jpg" alt="Volunteer">
+
+    <img src="w1d3-dog-adoption-site-bdcostin/starter_files/images/location.png" alt="Location">
+
+</body>
+
+</html>

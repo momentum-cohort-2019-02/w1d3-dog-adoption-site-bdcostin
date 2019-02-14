@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.company_name {
+    background-color: #163D73;
+    color: white;
+    width: 1100px;
+    font-size: 28px;
+    font-family: "Open Sans";
+    padding: 1em;
+    border-bottom: solid;
+    border-bottom-color: #A0DBED;
+}
+
+.form {
+    margin-left: 2.3%;
+}
+
+.task {
+    font-family: "Open Sans";
+    font-size: 22px;
+    padding: 1em;
+    margin-left: 0.5%;
+}
+
+.filter_title {
+    background-color: #F0EDEE;
+    font-family: "Open Sans";
+    font-size: 18px;
+    width: 1050px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+}
+
+.filter_container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1050px;
+    background-color: #F0EDEE;
+    font-family: "Open Sans";
+    font-size: 14px;
+    padding: 1em;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+    margin-bottom: 1em;
+    list-style-type: none;
+    height: 150px;
+}
+
+.filter_item_gender {
+    margin-top: -1%;
+    margin-right: 3em;
+    margin-left: 0.5%;
+}
+
+.filter_item_age {
+    margin-top: -1%;
+    margin-right: 3em;
+    margin-left: 0.5%;
+}
+
+.filter_item_size {
+    margin-top: -1%;
+    margin-right: 3em;
+    margin-left: 0.5%;
+}
+
+.filter_item_personality_traits {
+    margin-top: -1%;
+    margin-right: 3em;
+    margin-left: 0.5%;
+}
+
+.results-container {
+    max-width: 100%;
+    margin: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .7%;
+}
+
+.results {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 30%;
+    margin-right: -30px;
+}
+
+.filter_results_container {
+    flex: 1;
+    margin-top: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: space-between;
+    font-family: "Open Sans";
+    font-size: 10px;
+}
+
+.filter_results {
+    background-color: #A0DBED;
+    align-self: flex-start;
+    border-radius: 15px;
+    padding: 2px 2px 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    flex-grow: 0;
+    min-width: 9%;
+}
+
+.dog_font {
+    font-family: "Oswald";
+}
+
+.background-1 {
+    background: url("starter_files/images/donate.jpg");
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+
+.background-2 {
+    background: url("starter_files/images/volunteer.jpg");
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+
+.background-3 {
+    background: url("starter_files/images/location.png");
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+
+.layer {
+    background-color: rgba(53, 53, 238, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 250px;
+    font-family: "Oswald";
+    font-size: 34px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 230px;
+    color: #FFF;
+}
